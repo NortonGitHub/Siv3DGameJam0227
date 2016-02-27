@@ -9,5 +9,8 @@ public:
 
 	SceneBase* update() override;
 	void draw() override;
+
+private:
+
 };
 

@@ -1,5 +1,5 @@
 #include "Enclosure.h"
-
+#include "Collision.h"
 
 Enclosure::Enclosure(double _x, double _y, int _w, int _h, Color _color)
 {

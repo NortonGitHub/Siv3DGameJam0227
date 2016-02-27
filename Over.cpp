@@ -13,6 +13,7 @@ Over::~Over()
 
 SceneBase* Over::update()
 {
+	return this;
 }
 
 void Over::draw()

@@ -13,6 +13,7 @@ Title::~Title()
 
 SceneBase* Title::update()
 {
+	return this;
 }
 
 void Title::draw()

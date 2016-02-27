@@ -1,14 +1,30 @@
 #pragma once
+#include <Siv3D.hpp>
 class CharaBase
 {
 public:
 	CharaBase();
 	~CharaBase();
 
-private:
+	double getCoordX() {
+		return _x;
+	}
+	double getCoordY() {
+		return _y;
+	}
+
+protected:
 	double _x;
 	double _y;
-	double _r;
+	int _hr;
+	int _wr;
 
+	Color color;
+
+	double _accelerationX;
+	double _accelerationY;
+
+	double graPeriod;	//cˆÚ“®‚Ì‰~‚Ì”¼Œa‚Ì•Ï‰»‚Ég—p
+	double degree;		//‰¡ˆÚ“®‚Ì‚í‚¸‚©‚È‘È‰~‚ÌŒX‚«‚Ég—p
 };
 

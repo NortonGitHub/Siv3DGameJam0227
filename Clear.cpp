@@ -13,6 +13,7 @@ Clear::~Clear()
 
 SceneBase* Clear::update()
 {
+	return this;
 }
 
 void Clear::draw()

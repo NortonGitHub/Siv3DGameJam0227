@@ -11,8 +11,9 @@ SceneBase::~SceneBase()
 {
 }
 
-void SceneBase::update()
+SceneBase* SceneBase::update()
 {
+	return this;
 }
 
 void SceneBase::draw()
