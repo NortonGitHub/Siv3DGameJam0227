@@ -11,10 +11,10 @@ Game::~Game()
 {
 }
 
-void Game::update()
+SceneBase* Game::update()
 {
 }
 
-SceneBase* Game::draw()
+void Game::draw()
 {
 }

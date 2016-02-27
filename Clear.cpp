@@ -11,10 +11,10 @@ Clear::~Clear()
 {
 }
 
-void Clear::update()
+SceneBase* Clear::update()
 {
 }
 
-SceneBase* Clear::draw()
+void Clear::draw()
 {
 }
